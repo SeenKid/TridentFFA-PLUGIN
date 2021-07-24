@@ -1,7 +1,3 @@
-# TridentFFA-PLUGIN
+The plugin is not available in the releases TAB and he's now OPEN SOURCE.
 
-This is not the .java version, this plugin is not opensource at now.
-You can still use JD-Gui to see the code.
-
-
-It's just a plugin who gives stuff to player, basic shitty plugin to make FFA 
+If you use my plugin to modify or improve it, it would be nice to mention me as one of the author of the plugin ^^ 
