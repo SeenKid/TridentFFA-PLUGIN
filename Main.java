@@ -6,7 +6,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class Main extends JavaPlugin {
 	
 	/**
-	 * @author yannb
+	 * @author SeenKid
 	 */
 	
   public void onEnable() {
