@@ -11,6 +11,10 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
+/*
+* @Author SeenKid. This plugin was made by Seenkid. Please give credits.
+*/
+
 public class mainListener implements Listener {
   @EventHandler
   public void onJoin(PlayerJoinEvent event) {
@@ -32,7 +36,7 @@ public class mainListener implements Listener {
     customD.setDisplayName("");
     customD.addEnchant(Enchantment.LOYALTY, 2, true);
     customD.setUnbreakable(true);
-    customD.setLore(Arrays.asList(new String[] { "Un trident pour te battre", "un outil... puissant !" }));
+    customD.setLore(Arrays.asList(new String[] { "Un trident pour te battre", "un outil... puissant ! COMME MA B***" }));
     trident.setItemMeta(customD);
     
     ItemStack bow = new ItemStack(Material.BOW, 1);
@@ -41,7 +45,7 @@ public class mainListener implements Listener {
     customA.addEnchant(Enchantment.ARROW_INFINITE, 2, true);
     customA.addEnchant(Enchantment.ARROW_DAMAGE, 2, true);
     customA.setUnbreakable(true);
-    customA.setLore(Arrays.asList(new String[] { "Oh, un arc !", "bat toi, petite campouse !" }));
+    customA.setLore(Arrays.asList(new String[] { "Oh, un arc !", "bat toi, petite campouse ! Ne full-arc pas !" }));
     bow.setItemMeta(customA);
     
     ItemStack fleche = new ItemStack(Material.ARROW, 64);
