@@ -67,6 +67,10 @@ public class mainListener implements Listener {
     ItemMeta helm = helmet.getItemMeta();
     helm.setUnbreakable(true);
     helmet.setItemMeta(helm);
+	  
+	  /*
+* @Author SeenKid. This plugin was made by Seenkid. Please give credits.
+*/
     
     ItemStack pantalon = new ItemStack(Material.DIAMOND_LEGGINGS, 1);
     ItemMeta pant = pantalon.getItemMeta();
@@ -90,3 +94,7 @@ public class mainListener implements Listener {
     player.updateInventory();
   }
 }
+
+/*
+* @Author SeenKid. This plugin was made by Seenkid. Please give credits.
+*/
