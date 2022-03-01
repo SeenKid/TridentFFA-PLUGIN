@@ -25,21 +25,21 @@ public class mainListener implements Listener {
 		
 		ItemStack sword = new ItemStack(Material.IRON_SWORD, 1);
 		ItemMeta customM = sword.getItemMeta();
-		customM.setDisplayName("�cIRON SWORD");
+		customM.setDisplayName("§cIRON SWORD");
 		customM.addEnchant(Enchantment.DAMAGE_ALL, 4, true);
 		customM.setUnbreakable(true);
 		sword.setItemMeta(customM);
 		
 		ItemStack trident = new ItemStack(Material.TRIDENT, 1);
 		ItemMeta customD = sword.getItemMeta();
-		customD.setDisplayName("�aTRIDENT");
+		customD.setDisplayName("§aTRIDENT");
 		customD.addEnchant(Enchantment.LOYALTY, 2, true);
 		customD.setUnbreakable(true);
 		trident.setItemMeta(customD);
 		
 		ItemStack bow = new ItemStack(Material.BOW, 1);
 		ItemMeta customA = sword.getItemMeta();
-		customA.setDisplayName("�bARC");
+		customA.setDisplayName("§bARC");
 		customA.addEnchant(Enchantment.ARROW_INFINITE, 2, true);
 		customA.addEnchant(Enchantment.ARROW_DAMAGE, 2, true);
 		customA.setUnbreakable(true);
@@ -48,12 +48,12 @@ public class mainListener implements Listener {
 		
 		ItemStack fleche = new ItemStack(Material.ARROW, 64);
 		ItemMeta customB = fleche.getItemMeta();
-		customB.setDisplayName("fl�ches");
+		customB.setDisplayName("flèches");
 		fleche.setItemMeta(customB);
 		
 		ItemStack gapple = new ItemStack(Material.GOLDEN_APPLE, 64);
 		ItemMeta apple = gapple.getItemMeta();
-		apple.setDisplayName("�ePOMMES");
+		apple.setDisplayName("§ePOMMES");
 		gapple.setItemMeta(apple);
 		
 		ItemStack plastron = new ItemStack(Material.DIAMOND_CHESTPLATE, 1);
@@ -78,8 +78,16 @@ public class mainListener implements Listener {
 		
 		player.getInventory().setItem(0, sword);
 		player.getInventory().setItem(1, trident);
-		player.getInventory().setItem(2, bow);
-		player.getInventory().setItem(9, fleche);
+		// player.getInventory().setItem(2, bow);
+		// player.getInventory().setItem(9, fleche);
+		
+		/* 
+		
+		Je me suis rendu compte après coup que mettre un trident + un arc et des flèches était un peu abusé
+		vous pouvez réactiver l'arc en enlevant //
+		
+		*/
+		
 		player.getInventory().setItem(3, gapple);
 		player.getInventory().setItem(4, helmet);
 		player.getInventory().setItem(5, plastron);
